@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">BrandName</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-btn" id="menuBtn">☰</button>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to Our Website</h1>
+        <p>Clean, modern, and responsive web design.</p>
+        <button class="cta-btn" id="ctaBtn">Get Started</button>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="card-container">
+            <div class="card">
+                <h3>Web Design</h3>
+                <p>Creating modern and user-friendly interfaces.</p>
+            </div>
+            <div class="card">
+                <h3>Development</h3>
+                <p>Fast and scalable web applications.</p>
+            </div>
+            <div class="card">
+                <h3>SEO</h3>
+                <p>Optimizing your site for search engines.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="formResponse" class="response-msg"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 BrandName. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
